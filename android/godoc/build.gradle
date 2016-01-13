@@ -4,15 +4,15 @@
  */
 
 plugins {
-    id "org.golang.mobile.bind" version "0.2.2"
+  id "org.golang.mobile.bind" version "0.2.3"
 }
 
 gobind {
-    pkg = "github.com/hyangah/mgodoc/godoc"
+  pkg = "github.com/hyangah/mgodoc/godoc"
 
-    /* GOPATH where the Go package is; check `go env GOPATH` */
-    GOPATH = "/Users/hakim/Local/gopaths/ws1"
+  /* GOPATH where the Go package is; check `go env GOPATH` */
+  GOPATH = "/Users/roneythomas/go"
 
-    /* Absolute path to the go binary; check `which go` */
-    GO = "/Users/hakim/Local/goroots/tip/go/bin/go"
+  /* Absolute path to the go binary; check `which go` */
+  //GO = "/usr/local/go/bin/go"
 }
